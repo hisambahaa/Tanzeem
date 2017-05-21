@@ -12,7 +12,7 @@ class AddFildesToUsersTable extends Migration {
      */
     public function up()
     {
-        Schema::table('Users', function(Blueprint $table)
+        Schema::table('users', function(Blueprint $table)
         {
             $table->string('username');
             $table->string('phone');
@@ -32,7 +32,7 @@ class AddFildesToUsersTable extends Migration {
      */
     public function down()
     {
-        Schema::table('Users', function(Blueprint $table)
+        Schema::table('users', function(Blueprint $table)
         {
             NestedSet::dropColumns($table);
         });
