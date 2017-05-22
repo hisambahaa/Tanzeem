@@ -15,11 +15,13 @@ class CreateLeavesTable extends Migration {
         Schema::create('leaves', function(Blueprint $table)
         {
             $table->increments('id');
-            $table->integer('user_id');
+            $table->integer('employee_id')
+                  ->unsigned()
+                  ->nullable();
 
-            $table->foreign('user_id')
+            $table->foreign('employee_id')
                   ->references('id')
-                  ->on('users')
+                  ->on('employees')
                   ->onDelete('cascade')
                   ->onUpdate('cascade');
 

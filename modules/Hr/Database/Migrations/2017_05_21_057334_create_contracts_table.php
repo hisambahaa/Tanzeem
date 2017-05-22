@@ -21,6 +21,16 @@ class CreateContractsTable extends Migration {
             $table->timestamp('to');
             $table->string('note');
 
+            $table->integer('jop_id')
+                  ->unsigned()
+                  ->nullable();
+
+            $table->foreign('jop_id')
+                  ->references('id')
+                  ->on('jops')
+                  ->onDelete('cascade')
+                  ->onUpdate('cascade');
+
             $table->timestamps();
         });
     }

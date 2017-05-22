@@ -15,9 +15,9 @@ class CreateJopsTable extends Migration {
         Schema::create('jops', function(Blueprint $table)
         {
             $table->increments('id');
-            $table->string('title')
-            $table->string('description')
-            $table->string('responsibility')
+            $table->string('title');
+            $table->string('description');
+            $table->string('responsibility');
             $table->timestamps();
         });
     }
