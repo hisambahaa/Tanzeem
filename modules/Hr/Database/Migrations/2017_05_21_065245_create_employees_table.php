@@ -15,6 +15,7 @@ class CreateEmployeesTable extends Migration {
         Schema::create('employees', function(Blueprint $table)
         {
             $table->increments('id');
+            
             $table->integer('user_id')
                   ->unsigned()
                   ->nullable();
@@ -25,40 +26,12 @@ class CreateEmployeesTable extends Migration {
                   ->onUpdate('CASCADE')
                   ->onDelete('CASCADE');
 
-            $table->integer('department_id')
-                  ->unsigned()
-                  ->nullable();
-
-            $table->foreign('department_id')
-                  ->references('id')
-                  ->on('departments')
-                  ->onUpdate('CASCADE')
-                  ->onDelete('CASCADE');
-
-            $table->integer('contract_id')
-                  ->unsigned()
-                  ->nullable();
-
-            $table->foreign('contract_id')
-                  ->references('id')
-                  ->on('contracts')
-                  ->onUpdate('CASCADE')
-                  ->onDelete('CASCADE');
-
-            $table->integer('personal_id')
-                  ->unsigned()
-                  ->nullable();
-
-            $table->foreign('personal_id')
-                  ->references('id')
-                  ->on('personals')
-                  ->onUpdate('CASCADE')
-                  ->onDelete('CASCADE');
-
 
             $table->timestamp('employee_date');
             $table->string('jop_address');
             $table->string('extentio_phone');
+
+            $table->string('note');
             $table->timestamps();
         });
     }

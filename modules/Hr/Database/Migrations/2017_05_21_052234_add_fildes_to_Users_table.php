@@ -19,8 +19,22 @@ class AddFildesToUsersTable extends Migration {
             $table->string('mobile');
             $table->string('gender');
             $table->timestamp('last_login');
-            $table->string('type')->comment('name of table like employees , customers , suppliers ');
- 
+            $table->string('type')
+                    ->comment('name of table like employees , customers , suppliers ');
+            $table->string('status');
+
+            $table->integer('department_id')
+                  ->unsigned()
+                  ->nullable();
+
+            $table->foreign('department_id')
+                  ->references('id')
+                  ->on('departments')
+                  ->onDelete('cascade')
+                  ->onUpdate('cascade');
+
+            $table->string('note');
+
 
         });
     }

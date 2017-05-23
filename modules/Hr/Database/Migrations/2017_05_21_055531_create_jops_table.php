@@ -18,6 +18,8 @@ class CreateJopsTable extends Migration {
             $table->string('title');
             $table->string('description');
             $table->string('responsibility');
+            
+            $table->string('note');
             $table->timestamps();
         });
     }

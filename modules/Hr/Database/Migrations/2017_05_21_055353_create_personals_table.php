@@ -27,6 +27,18 @@ class CreatePersonalsTable extends Migration {
             $table->string('experience');
             $table->string('social_state');
 
+            $table->integer('user_id')
+                  ->unsigned()
+                  ->nullable();
+
+            $table->foreign('user_id')
+                  ->references('id')
+                  ->on('users')
+                  ->onDelete('cascade')
+                  ->onUpdate('cascade');
+                  
+            $table->string('note');
+
             $table->timestamps();
         });
     }
