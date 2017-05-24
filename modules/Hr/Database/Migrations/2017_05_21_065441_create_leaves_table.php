@@ -31,6 +31,7 @@ class CreateLeavesTable extends Migration {
             $table->string('state');
             $table->string('description');
 
+            $table->string('note');
             $table->timestamps();
         });
     }

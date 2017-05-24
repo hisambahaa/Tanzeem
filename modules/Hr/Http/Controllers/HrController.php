@@ -8,5 +8,10 @@ class HrController extends Controller {
 	{
 		return view('hr::index');
 	}
+
+	public function index2()
+	{
+		return view('hr::index');
+	}
 	
 }
