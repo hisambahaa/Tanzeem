@@ -32,6 +32,8 @@ class CreateDepartmentsTable extends Migration {
 
             $table->string('note');
             $table->timestamps();
+
+            
         });
     }
 

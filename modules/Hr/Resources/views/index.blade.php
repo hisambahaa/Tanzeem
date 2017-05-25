@@ -33,6 +33,6 @@
     {!! Form::submit('Contact Us!', 
       array('class'=>'btn btn-primary')) !!}
 </div>
-{!! Form::close() ! --}}!}
+{!! Form::close() !!} --}}
 
 @stop
