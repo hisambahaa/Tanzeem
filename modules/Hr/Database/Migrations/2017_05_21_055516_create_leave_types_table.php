@@ -17,6 +17,7 @@ class CreateLeaveTypesTable extends Migration {
             $table->increments('id');
             $table->string('name');
             $table->boolean('limit_restrict');
+            $table->string('note');
 
             $table->timestamps();
         });

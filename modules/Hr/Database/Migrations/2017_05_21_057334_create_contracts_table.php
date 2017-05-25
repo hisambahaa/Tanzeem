@@ -42,7 +42,7 @@ class CreateContractsTable extends Migration {
                   
             $table->string('status');
 
-
+            $table->boolean('auto_renew')
             $table->string('note');
             $table->timestamps();
         });

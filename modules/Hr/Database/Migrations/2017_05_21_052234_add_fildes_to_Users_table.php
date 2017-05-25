@@ -20,7 +20,8 @@ class AddFildesToUsersTable extends Migration {
             $table->string('gender');
             $table->timestamp('last_login');
             $table->string('type')
-                    ->comment('name of table like employees , customers , suppliers ');
+                    ->default('employee')
+                    ->comment('name of table like employee , customers , suppliers ');
             $table->string('status');
 
             $table->integer('department_id')
