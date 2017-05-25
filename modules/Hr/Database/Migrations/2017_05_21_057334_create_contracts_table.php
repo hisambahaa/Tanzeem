@@ -19,6 +19,7 @@ class CreateContractsTable extends Migration {
             $table->double('salary');
             $table->timestamp('from');
             $table->timestamp('to');
+            $table->string('note');
 
             $table->integer('jop_id')
                   ->unsigned()
@@ -30,20 +31,6 @@ class CreateContractsTable extends Migration {
                   ->onDelete('cascade')
                   ->onUpdate('cascade');
 
-            $table->integer('user_id')
-                  ->unsigned()
-                  ->nullable();
-
-            $table->foreign('user_id')
-                  ->references('id')
-                  ->on('users')
-                  ->onDelete('cascade')
-                  ->onUpdate('cascade');
-                  
-            $table->string('status');
-
-
-            $table->string('note');
             $table->timestamps();
         });
     }

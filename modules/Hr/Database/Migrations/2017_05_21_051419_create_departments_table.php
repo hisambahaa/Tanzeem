@@ -17,20 +17,16 @@ class CreateDepartmentsTable extends Migration {
         {
             $table->increments('id');
             $table->string('name');
-            $table->integer('manager_user_id')
+            $table->integer('user_id')
                   ->unsigned()
                   ->nullable();
 
-            $table->foreign('manager_user_id')
+            $table->foreign('user_id')
                   ->references('id')
                   ->on('users')
                   ->onDelete('cascade')
                   ->onUpdate('cascade');
-                  
             NestedSet::columns($table);
-
-
-            $table->string('note');
             $table->timestamps();
 
             
