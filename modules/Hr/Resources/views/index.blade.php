@@ -2,17 +2,10 @@
 
 @section('content')
 
-{{-- {!! Form::open(array('route' => 'users.edit', 'class' => 'form')) !!}
-
-<div class="form-group">
-    {!! Form::label('Your Name') !!}
-    {!! Form::text('name', null, 
-        array('required', 
-              'class'=>'form-control', 
-              'placeholder'=>'Your name')) !!}
-</div>
 
 
+
+<<<<<<< HEAD
 <div class="form-group">
     {!! Form::label('Your E-mail Address') !!}
     {!! Form::text('email', null, 
@@ -34,5 +27,7 @@
       array('class'=>'btn btn-primary')) !!}
 </div>
 {!! Form::close() !!} --}}
+=======
+>>>>>>> parent of a596a01... cnflict
 
 @stop
