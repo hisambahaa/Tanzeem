@@ -6,6 +6,7 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <div class="form-group">
     {!! Form::label('Your E-mail Address') !!}
     {!! Form::text('email', null, 
@@ -27,6 +28,8 @@
       array('class'=>'btn btn-primary')) !!}
 </div>
 {!! Form::close() !!} --}}
+=======
+>>>>>>> parent of a596a01... cnflict
 =======
 >>>>>>> parent of a596a01... cnflict
 
