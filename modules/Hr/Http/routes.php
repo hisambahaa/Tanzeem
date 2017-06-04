@@ -5,39 +5,39 @@ Route::group(['middleware' => 'web', 'prefix' => 'admin', 'namespace' => 'Module
 {
 	 Route::get('/', 'HrController@index');
 
-	// Route::group(['prefix'=>'hr'] ,function() {
+	Route::group(['prefix'=>'jop'] ,function() {
 		
-	// 	Route::get('/', [
-	// 			'as'=>'hr.index',
-	// 			'uses'=>'HrController@index'
-	// 			]);
+		Route::get('/', [
+				'as'=>'hr.jop.index',
+				'uses'=>'JopController@index'
+				]);
 		
-	// 	Route::get('create', [
-	// 			'as'=>'hr.create',
-	// 			'uses'=>'HrController@create'
-	// 			]);
+		Route::get('create', [
+				'as'=>'hr.jop.create',
+				'uses'=>'JopController@create'
+				]);
 		
-	// 	Route::post('store', [
-	// 			'as'=>'hr.store',
-	// 			'uses'=>'HrController@store'
-	// 			]);
+		Route::post('store', [
+				'as'=>'hr.jop.store',
+				'uses'=>'JopController@store'
+				]);
 		
-	// 	Route::get('edit', [
-	// 			'as'=>'hr.edit',
-	// 			'uses'=>'HrController@edit'
-	// 			]);
+		Route::get('edit', [
+				'as'=>'hr.jop.edit',
+				'uses'=>'JopController@edit'
+				]);
 		
-	// 	Route::post('update', [
-	// 			'as'=>'hr.update',
-	// 			'uses'=>'HrController@update'
-	// 			]);
-	// 	Route::post('delete', [
-	// 			'as'=>'hr.delete',
-	// 			'uses'=>'HrController@delete'
-	// 			]);
+		Route::post('update', [
+				'as'=>'hr.jop.update',
+				'uses'=>'JopController@update'
+				]);
+		Route::post('delete', [
+				'as'=>'hr.jop.delete',
+				'uses'=>'JopController@delete'
+				]);
 
 		
-	// });
+	});
 
 
 });

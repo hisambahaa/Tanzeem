@@ -1,4 +1,6 @@
 <head>
+<meta name="csrf-token" content="{{ csrf_token() }}" />
+
     <meta charset="UTF-8">
     <title>AdminLTE 2 | Dashboard</title>
     <!-- Tell the browser to be responsive to screen width -->

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 	@include('partials.header')
   <body class="skin-blue sidebar-mini">
     <div class="wrapper">
