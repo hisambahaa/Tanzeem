@@ -4,6 +4,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Jop extends Model {
 
-    protected $fillable = [];
+    protected $fillable = ['title',
+							'description',
+							'responsibility',
+							'note'];
 
 }

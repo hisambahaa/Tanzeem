@@ -14,7 +14,7 @@ class HrDatabaseSeeder extends Seeder {
 	{
 		Model::unguard();
 		
-		// $this->call("OthersTableSeeder");
+		$this->call("Modules\Hr\Database\Seeders\UserTableSeeder");
 	}
 
 }

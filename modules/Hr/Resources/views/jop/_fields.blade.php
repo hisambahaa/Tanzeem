@@ -11,21 +11,27 @@
 </div>
 
 <div class="clearfix"></div>
-<div class="form-group {{ $errors->first('name' ,'has-error') }}">
-        {!! Form::label('name', trans('hr::jop.title'), array('class' => 'control-label col-md-3 col-sm-3 col-xs-12')) !!}
+<div class="form-group ">
+        {!! Form::label('name', trans('hr::jobs.title'), array('class' => 'control-label col-md-3 col-sm-3 col-xs-12')) !!}
         <div class="col-md-6 col-sm-6 col-xs-12">
-           {!! Form::text('name' ,null,['class'=>'form-control']) !!}
-           {!! $errors->first('name' ,'<div class="label label-danger">:message</div>') !!}
+           {!! Form::text('title' ,null,['class'=>'form-control']) !!}
         </div>
 </div>
 
 
 <div class="clearfix"></div>
-<div class="form-group {{ $errors->first('name' ,'has-error') }}">
-    	{!! Form::label('name', trans('hr::jop.description'), array('class' => 'control-label col-md-3 col-sm-3 col-xs-12')) !!}
+<div class="form-group ">
+        {!! Form::label('name', trans('hr::jobs.description'), array('class' => 'control-label col-md-3 col-sm-3 col-xs-12')) !!}
         <div class="col-md-6 col-sm-6 col-xs-12">
-    	   {!! Form::textarea('name' ,null,['class'=>'form-control']) !!}
-           {!! $errors->first('name' ,'<div class="label label-danger">:message</div>') !!}
+           {!! Form::textarea('description' ,null,['class'=>'form-control']) !!}
+        </div>
+</div>
+
+<div class="clearfix"></div>
+<div class="form-group ">
+    	{!! Form::label('name', trans('hr::jobs.responsibility'), array('class' => 'control-label col-md-3 col-sm-3 col-xs-12')) !!}
+        <div class="col-md-6 col-sm-6 col-xs-12">
+    	   {!! Form::textarea('responsibility' ,null,['class'=>'form-control']) !!}
         </div>
 </div>
 

@@ -1,7 +1,7 @@
 
 <?php
 
-Route::group(['middleware' => 'web', 'prefix' => 'admin', 'namespace' => 'Modules\Hr\Http\Controllers'], function()
+Route::group([ 'Middleware' => 'web', 'prefix' => 'admin', 'namespace' => 'Modules\Hr\Http\Controllers'], function()
 {
 	 Route::get('/', 'HrController@index');
 
@@ -22,18 +22,23 @@ Route::group(['middleware' => 'web', 'prefix' => 'admin', 'namespace' => 'Module
 				'uses'=>'JopController@store'
 				]);
 		
-		Route::get('edit', [
+		Route::get('edit/{id}', [
 				'as'=>'hr.jop.edit',
 				'uses'=>'JopController@edit'
 				]);
 		
-		Route::post('update', [
+		Route::post('update/{id}', [
 				'as'=>'hr.jop.update',
 				'uses'=>'JopController@update'
 				]);
-		Route::post('delete', [
+		Route::get('delete/{id}', [
 				'as'=>'hr.jop.delete',
 				'uses'=>'JopController@delete'
+				]);
+
+		Route::post('deleteBulk', [
+				'as'=>'hr.jop.deleteBulk',
+				'uses'=>'JopController@deleteBulk'
 				]);
 
 		
