@@ -18,3 +18,10 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+
+
+Route::group(['middleware'=>'web'], function() {
+Route::post('auth/login', ['as'=>'login.post','uses'=>'Auth\AuthController@postLogin']);
+Route::get('auth/logout', ['as'=>'logout','uses'=>'Auth\AuthController@getLogout']);
+});

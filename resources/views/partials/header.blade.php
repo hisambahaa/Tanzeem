@@ -1,6 +1,5 @@
 <head>
-<meta name="csrf-token" content="{{ csrf_token() }}" />
-
+<
     <meta charset="UTF-8">
     <title>نظام تنظيم </title>
     <!-- Tell the browser to be responsive to screen width -->
