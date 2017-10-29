@@ -1470,12 +1470,15 @@ return array(
     'JakubOnderka\\PhpConsoleColor\\ConsoleColor' => $vendorDir . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/ConsoleColor.php',
     'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => $vendorDir . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/InvalidStyleException.php',
     'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => $vendorDir . '/jakub-onderka/php-console-highlighter/src/JakubOnderka/PhpConsoleHighlighter/Highlighter.php',
+<<<<<<< HEAD
     'Kalnoy\\Nestedset\\Collection' => $vendorDir . '/kalnoy/nestedset/src/Collection.php',
     'Kalnoy\\Nestedset\\DescendantsRelation' => $vendorDir . '/kalnoy/nestedset/src/DescendantsRelation.php',
     'Kalnoy\\Nestedset\\NestedSet' => $vendorDir . '/kalnoy/nestedset/src/NestedSet.php',
     'Kalnoy\\Nestedset\\Node' => $vendorDir . '/kalnoy/nestedset/src/Node.php',
     'Kalnoy\\Nestedset\\NodeTrait' => $vendorDir . '/kalnoy/nestedset/src/NodeTrait.php',
     'Kalnoy\\Nestedset\\QueryBuilder' => $vendorDir . '/kalnoy/nestedset/src/QueryBuilder.php',
+=======
+>>>>>>> eb7dd963ab6ab52ab8ee2d9d3482cac60b391e15
     'League\\Flysystem\\AdapterInterface' => $vendorDir . '/league/flysystem/src/AdapterInterface.php',
     'League\\Flysystem\\Adapter\\AbstractAdapter' => $vendorDir . '/league/flysystem/src/Adapter/AbstractAdapter.php',
     'League\\Flysystem\\Adapter\\AbstractFtpAdapter' => $vendorDir . '/league/flysystem/src/Adapter/AbstractFtpAdapter.php',
@@ -1608,6 +1611,12 @@ return array(
     'Modules\\Hr\\Http\\Controllers\\UserController' => $baseDir . '/modules/Hr/Http/Controllers/UserController.php',
     'Modules\\Hr\\Http\\Controllers\\employeeController' => $baseDir . '/modules/Hr/Http/Controllers/EmployeeController.php',
     'Modules\\Hr\\Providers\\HrServiceProvider' => $baseDir . '/modules/Hr/Providers/HrServiceProvider.php',
+<<<<<<< HEAD
+=======
+    'Modules\\Workflows\\Database\\Seeders\\WorkflowsDatabaseSeeder' => $baseDir . '/modules/Workflows/Database/Seeders/WorkflowsDatabaseSeeder.php',
+    'Modules\\Workflows\\Http\\Controllers\\WorkflowsController' => $baseDir . '/modules/Workflows/Http/Controllers/WorkflowsController.php',
+    'Modules\\Workflows\\Providers\\WorkflowsServiceProvider' => $baseDir . '/modules/Workflows/Providers/WorkflowsServiceProvider.php',
+>>>>>>> eb7dd963ab6ab52ab8ee2d9d3482cac60b391e15
     'Monolog\\ErrorHandler' => $vendorDir . '/monolog/monolog/src/Monolog/ErrorHandler.php',
     'Monolog\\Formatter\\ChromePHPFormatter' => $vendorDir . '/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php',
     'Monolog\\Formatter\\ElasticaFormatter' => $vendorDir . '/monolog/monolog/src/Monolog/Formatter/ElasticaFormatter.php',
@@ -3136,7 +3145,10 @@ return array(
     'Symfony\\Component\\Yaml\\Exception\\RuntimeException' => $vendorDir . '/symfony/yaml/Exception/RuntimeException.php',
     'Symfony\\Component\\Yaml\\Inline' => $vendorDir . '/symfony/yaml/Inline.php',
     'Symfony\\Component\\Yaml\\Parser' => $vendorDir . '/symfony/yaml/Parser.php',
+<<<<<<< HEAD
     'Symfony\\Component\\Yaml\\Tag\\TaggedValue' => $vendorDir . '/symfony/yaml/Tag/TaggedValue.php',
+=======
+>>>>>>> eb7dd963ab6ab52ab8ee2d9d3482cac60b391e15
     'Symfony\\Component\\Yaml\\Unescaper' => $vendorDir . '/symfony/yaml/Unescaper.php',
     'Symfony\\Component\\Yaml\\Yaml' => $vendorDir . '/symfony/yaml/Yaml.php',
     'Symfony\\Polyfill\\Mbstring\\Mbstring' => $vendorDir . '/symfony/polyfill-mbstring/Mbstring.php',

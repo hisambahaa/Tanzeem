@@ -18,7 +18,7 @@ class JopController extends Controller {
 	}
 
 	public function store(Request $request, Jop $jop){
-		dd($request->all());
+		// dd($request->all());
 		$jop->fill($request->all())->save();
 
 		$message = "تم الإضافه بنجاح ";

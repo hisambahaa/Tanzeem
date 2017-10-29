@@ -16,9 +16,9 @@
 </a>
 
 <div class="clearfix"></div>
-@if($jops->isEmpty())
+@if($leave_types->isEmpty())
 <div class="alert alert-info">
-   @lang('hr::jops.no_jobs')
+   @lang('hr::leave_types.no_jobs')
 </div>
 @else
 {!! Form::open(['route'=>'hr.jop.deleteBulk']) !!}
@@ -50,7 +50,7 @@
     </tr>
 </thead>
 <tbody>
-    @foreach($jops as $jop)
+    @foreach($leave_types as $jop)
     <tr class="even pointer">
     <td class="a-center ">
             <input type="checkbox" class="tableflat" value='{{$jop->id}}' name='table_records[]'>
@@ -92,7 +92,7 @@
 </div>
 <div class="row">
     <div class="col-sm-12 col-md-10">
-        {!! $jops->render() !!}
+        {!! $leave_types->render() !!}
     </div>
 </div>
 @endif

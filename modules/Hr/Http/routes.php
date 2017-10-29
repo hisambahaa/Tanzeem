@@ -44,5 +44,42 @@ Route::group([ 'Middleware' => 'web', 'prefix' => 'admin', 'namespace' => 'Modul
 		
 	});
 
+	Route::group(['prefix'=>'leave_type'] ,function() {
+
+		Route::get('/', [
+				'as'=>'hr.leaveType.index',
+				'uses'=>'LeaveTypeController@index'
+				]);
+		
+		Route::get('create', [
+				'as'=>'hr.leaveType.create',
+				'uses'=>'LeaveTypeController@create'
+				]);
+		
+		Route::post('store', [
+				'as'=>'hr.leaveType.store',
+				'uses'=>'LeaveTypeController@store'
+				]);
+		
+		Route::get('edit/{id}', [
+				'as'=>'hr.leaveType.edit',
+				'uses'=>'LeaveTypeController@edit'
+				]);
+		
+		Route::post('update/{id}', [
+				'as'=>'hr.leaveType.update',
+				'uses'=>'LeaveTypeController@update'
+				]);
+		Route::get('delete/{id}', [
+				'as'=>'hr.leaveType.delete',
+				'uses'=>'LeaveTypeController@delete'
+				]);
+
+		Route::post('deleteBulk', [
+				'as'=>'hr.leaveType.deleteBulk',
+				'uses'=>'LeaveTypeController@deleteBulk'
+				]);
+	});
+
 
 });

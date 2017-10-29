@@ -4,6 +4,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class LeaveType extends Model {
 
-    protected $fillable = [];
+    protected $fillable = ['name',
+						  'limit_restric',
+						  'allow_after_leave'];
 
 }
