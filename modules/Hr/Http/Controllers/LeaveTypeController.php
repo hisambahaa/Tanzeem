@@ -2,18 +2,19 @@
 
 use Modules\Hr\Entities\LeaveType;
 use Pingpong\Modules\Routing\Controller;
+use Illuminate\Http\Request;
 
 class LeaveTypeController extends Controller {
 	
 	public function index()
 	{
-		$leave_types = LeaveType::select('*')->get();
+		$leave_types = LeaveType::paginate(20);
 
 		return view('hr::leave_type.index', compact('leave_types'));
 	}
 
 	public function create(){
-
+		
 		return view('hr::leave_type.create');
 	}
 

@@ -5,13 +5,15 @@
   {{-- <li><a href="{{ route('welcome')}}">@lang('global.home')</a></li> --}}
   <li> @lang('hr::jobs.jobs')</a></li>
 </ol>
+
+
 <div class="x_title">
     <h2>@lang('hr::jobs.jobs')</h2>
 
 <div class="clearfix"></div>
 
 </div>
-<a href="{{ route('hr.jop.create') }}" class="btn btn-primary pull-left" >
+<a href="{{ route('hr.leaveType.create') }}" class="btn btn-primary pull-left" >
     <i class="fa fa-plus"></i> @lang('global.new')
 </a>
 
@@ -39,9 +41,7 @@
                 <i class="fa fa-pencil-square-o"></i>@lang('hr::jobs.responsibility')
             </th> 
 
-             <th>
-                <i class="fa fa-pencil-square-o"></i>@lang('hr::jobs.note')
-            </th>            
+                       
             <th class=" no-link last"><span class="nobr">
             <i class="fa fa-cog"></i>
             @lang('global.actions')
@@ -50,32 +50,28 @@
     </tr>
 </thead>
 <tbody>
-    @foreach($leave_types as $jop)
+    @foreach($leave_types as $leave_type)
     <tr class="even pointer">
     <td class="a-center ">
-            <input type="checkbox" class="tableflat" value='{{$jop->id}}' name='table_records[]'>
+            <input type="checkbox" class="tableflat" value='{{$leave_type->id}}' name='table_records[]'>
         </td>
         <td class="a-center ">
-            {{ $jop->title }}
+            {{ $leave_type->name }}
         </td> 
         <td class="a-center ">
-            {{ $jop->description }}
+            {{ $leave_type->limit_restrict }}
         </td> 
         <td class="a-center ">
-            {{ $jop->responsibility }}
+            {{ $leave_type->allow_after_leave }}
         </td>
-        <td class="a-center ">
-            {{ $jop->note}}
-        </td>
+      
         <td class=" last">
      
-            <a href="{{ route('hr.jop.edit',$jop->id)}}" class='btn btn-sm btn-success'>
+            <a href="{{ route('hr.leaveType.edit',$leave_type->id)}}" class='btn btn-sm btn-success'>
                 <i class="fa fa-edit"></i> @lang('global.edit')
             </a>
-        
-
      
-            <a href="{{ route('hr.jop.delete',$jop->id)}}" class="btn btn-danger btn-sm">
+            <a href="{{ route('hr.leaveType.delete',$leave_type->id)}}" class="btn btn-danger btn-sm">
             <i class="fa fa-trash"></i> @lang('global.delete')
             </a>
 
