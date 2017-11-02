@@ -1,0 +1,755 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fa-c",
+				"fa-circle-o\t(general.html)"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"text-",
+				"text-olive\t(AdminLTE.css)"
+			],
+			[
+				"te",
+				"text-red\t(advanced.html)"
+			],
+			[
+				"fa-",
+				"fa-clock-o\t(advanced.html)"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"cn",
+				"center"
+			],
+			[
+				"btn-",
+				"btn-primary"
+			],
+			[
+				"stude",
+				"student_id\t(InstallmentsController.php)"
+			],
+			[
+				"insta",
+				"installments\t(InstallmentsController.php)"
+			],
+			[
+				"mo",
+				"module\t(PermissionsTableSeeder.php)"
+			],
+			[
+				"C",
+				"Carbon"
+			],
+			[
+				"stu",
+				"student_id"
+			],
+			[
+				"student",
+				"student_id"
+			],
+			[
+				"error",
+				"errors"
+			],
+			[
+				"sem",
+				"semester_id"
+			],
+			[
+				"user",
+				"username\t(DashboardController.php)"
+			],
+			[
+				"lis",
+				"listen\t(DashboardController.php)"
+			],
+			[
+				"with",
+				"withdraw\t(DashboardController.php)"
+			],
+			[
+				"Wh",
+				"whereIn"
+			],
+			[
+				"q",
+				"query\t(StudentsController.php)"
+			],
+			[
+				"multi",
+				"multicreate\t(SubjectsController.php)"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"where",
+				"whereHas"
+			],
+			[
+				"finan",
+				"financial_invoices"
+			],
+			[
+				"wh",
+				"where"
+			],
+			[
+				"fin",
+				"financial_exceptions"
+			],
+			[
+				"created",
+				"created_at"
+			],
+			[
+				"se",
+				"semester_id\t(ReportsController.php)"
+			],
+			[
+				"to",
+				"toArray"
+			],
+			[
+				"add",
+				"added_subject_ids"
+			],
+			[
+				"studen",
+				"studentsubject\t(MessagesController.php)"
+			],
+			[
+				"Wi",
+				"withdraw"
+			],
+			[
+				"new",
+				"new_dep_id"
+			],
+			[
+				"acad",
+				"academycycle_semester_id"
+			],
+			[
+				"refun",
+				"refund_state"
+			],
+			[
+				"ord",
+				"order"
+			],
+			[
+				"del",
+				"delay_financial"
+			],
+			[
+				"ref",
+				"refund_state\t(DelaysController.php)"
+			],
+			[
+				"ق",
+				"قبول\t(DelaysController.php)"
+			],
+			[
+				"or",
+				"order"
+			],
+			[
+				"subj",
+				"subject\t(DelaysController.php)"
+			],
+			[
+				"sut",
+				"student_subject"
+			],
+			[
+				"sub",
+				"subject\t(DelaysController.php)"
+			],
+			[
+				"order",
+				"order_delays\t(DelaysController.php)"
+			],
+			[
+				"stud",
+				"studentid"
+			],
+			[
+				"nex",
+				"next_semester"
+			],
+			[
+				"array_dif",
+				"array_diff_assoc"
+			],
+			[
+				"par",
+				"parent\t(show.blade.php)"
+			],
+			[
+				"ite",
+				"item_id"
+			],
+			[
+				"ol",
+				"old_subject_cost"
+			],
+			[
+				"new_d",
+				"new_dep_id"
+			],
+			[
+				"aca",
+				"academystructure_department_id"
+			],
+			[
+				"pl",
+				"pluck"
+			],
+			[
+				"drop",
+				"drop_subject_ids"
+			],
+			[
+				"subject",
+				"subject_id"
+			],
+			[
+				"dep",
+				"depart"
+			],
+			[
+				"summ",
+				"summer_students"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"pla",
+				"plaints_debit_fee"
+			],
+			[
+				"grou",
+				"groupBy"
+			],
+			[
+				"sum",
+				"sum('value\t(ExamPlaintsController.php)"
+			],
+			[
+				"gro",
+				"groupBy"
+			],
+			[
+				"crdit",
+				"credit\t(ExamPlaintsController.php)"
+			],
+			[
+				"Fin",
+				"FinancialInvoice"
+			],
+			[
+				"re",
+				"refused\t(ExamPlaintsController.php)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"D",
+				"Dashboard\t(DashboardController.php)"
+			],
+			[
+				"gr",
+				"groupBy\t(ExamPlaintsController.php)"
+			],
+			[
+				"p",
+				"paid\t(ExamPlaintsController.php)"
+			],
+			[
+				"De",
+				"Delay"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Library/WebServer/Documents/Tanzeem/modules/Workflows/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "WorkflowsController.php",
+			"settings":
+			{
+				"buffer_size": 319,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/Tanzeem/modules/Workflows/Entities/Workflow.php",
+			"settings":
+			{
+				"buffer_size": 153,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 119.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"Snippet: FOR",
+				"Snippet: <?php foreach (…) … <?php endforeach ?>"
+			],
+			[
+				"Snippet: PHP FO",
+				"Snippet: <?php foreach (…) … <?php endforeach ?>"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Library/WebServer/Documents/Tanzeem",
+		"/Library/WebServer/Documents/Tanzeem/modules",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Entities",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Http",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Http/Controllers",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Resources",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Resources/views",
+		"/Library/WebServer/Documents/Tanzeem/resources",
+		"/Library/WebServer/Documents/Tanzeem/resources/views",
+		"/Library/WebServer/Documents/Tanzeem/resources/views/layouts",
+		"/Library/WebServer/Documents/Tanzeem/resources/views/partials",
+		"/Library/WebServer/Documents/Tanzeem/storage"
+	],
+	"file_history":
+	[
+		"/Library/WebServer/Documents/Tanzeem/resources/views/partials/mainheader.blade.php",
+		"/Library/WebServer/Documents/Tanzeem/public/dist/css/AdminLTE.css",
+		"/Library/WebServer/Documents/Tanzeem/public/dist/css/profile.css",
+		"/Library/WebServer/Documents/Tanzeem/resources/views/partials/header.blade.php",
+		"/Library/WebServer/Documents/Tanzeem/resources/views/partials/footer.blade.php",
+		"/Library/WebServer/Documents/Tanzeem/resources/views/layouts/master.blade.php",
+		"/Library/WebServer/Documents/Tanzeem/public/pages/forms/advanced.html",
+		"/Library/WebServer/Documents/Tanzeem/public/pages/forms/general.html",
+		"/Library/WebServer/Documents/Tanzeem/public/pages/layout/boxed.html",
+		"/Library/WebServer/Documents/Tanzeem/public/pages/widgets.html",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Http/Controllers/WorkflowsController.php",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Resources/views/index.blade.php",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Resources/views/controls.blade.php",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Resources/views/advanced.blade.php",
+		"/Library/WebServer/Documents/Tanzeem/public/pages/UI/buttons.html",
+		"/Library/WebServer/Documents/Tanzeem/public/pages/examples/login.html",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Resources/views/login.blade.php",
+		"/Library/WebServer/Documents/Tanzeem/public/dist/css/AdminLTE.min.css",
+		"/Library/WebServer/Documents/Tanzeem/public/dist/js/pages/dashboard.js",
+		"/Library/WebServer/Documents/Tanzeem/public/plugins/select2/select2.full.min.js",
+		"/Library/WebServer/Documents/Tanzeem/resources/views/partials/nav.blade.php",
+		"/Library/WebServer/Documents/Tanzeem/composer.json",
+		"/Library/WebServer/Documents/Tanzeem/modules/Hr/composer.json",
+		"/Library/WebServer/Documents/Tanzeem/modules/Hr/Http/routes.php",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Http/routes.php",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Http/Controllers/StepsController.php",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Entities/Workflow.php",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Entities/Step.php",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Entities/WorkflowStepUser.php",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Database/Migrations/2017_10_25_052612_create_wf_workflow_step_users_table.php",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Database/Migrations/2017_10_25_052224_create_wf_workflows_table.php",
+		"/Library/WebServer/Documents/Tanzeem/modules/Workflows/Database/Migrations/2017_10_25_052240_create_wf_steps_table.php",
+		"/Library/WebServer/Documents/Tanzeem/.env",
+		"/Library/WebServer/Documents/Tanzeem/composer.lock",
+		"/Library/WebServer/Documents/dares/modules/Financials/Resources/views/installments/index.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Academycycle/Resources/views/semesters/index.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Academycycle/Resources/views/semesters/create.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Resources/views/installments/_fields.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Resources/views/installments/create.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Database/Migrations/2017_10_23_093231_create_financial_installments.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Resources/views/layouts/master.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Entities/FinancialInstallment.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Http/Controllers/DashboardController.php",
+		"/Library/WebServer/Documents/dares/modules/Exams/Resources/views/reports/_searchgrad.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Database/Seeders/PermissionsTableSeeder.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Http/Controllers/ExceptionsController.php",
+		"/Library/WebServer/Documents/dares/modules/Questionbank/Resources/views/choice/_fields.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Entities/FinancialException.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Database/Seeders/FinancialsDatabaseSeeder.php",
+		"/Library/WebServer/Documents/dares/modules/Exams/Resources/views/reports/_searchgradrang.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/helpers.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Http/Controllers/ReportsController.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Http/Controllers/SubjectsController.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Http/routes.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Resources/views/dashboard/history.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Http/Controllers/DashboardController.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Resources/views/reports/_list.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Http/Controllers/ChangeDepartmentController.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Resources/views/dashborad/invoices.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Resources/views/dashborad/subjects.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Assignsubjects/Entities/StudentSubject.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Entities/Student.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Resources/views/students/show.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Http/routes.php",
+		"/Library/WebServer/Documents/dares/modules/Academystructure/Resources/views/specialties/showstruct.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Http/Controllers/StudentsController.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Jobs/DashboardJob.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Http/Middleware/StudentsMenu.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Resources/views/subjects/multierror.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Academystructure/Http/Controllers/SpecialtyController.php",
+		"/Library/WebServer/Documents/dares/modules/Subject/Http/Controllers/SubjectsController.php",
+		"/Library/WebServer/Documents/dares/modules/Students/helpers.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Jobs/CreateSemesterDebitsJob.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Http/Controllers/DocumentsController.php",
+		"/Library/WebServer/Documents/dares/modules/Academystructure/Http/Controllers/DepartmentController.php",
+		"/Library/WebServer/Documents/dares/modules/Academystructure/Entities/Department.php",
+		"/Library/WebServer/Documents/dares/modules/Academystructure/Entities/Specialty.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Resources/views/subjects/multicreate.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Resources/views/subjects/multierrors.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Database/Seeders/PermissionsTableSeeder.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Resources/lang/ar/students.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Resources/views/reports/semester.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Resources/views/reports/newstudent.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Resources/views/reports/bank.blade.php",
+		"/Library/WebServer/Documents/dares/storage/framework/views/c5377da2078fa3ee14d0de088c2f64a2a29fd8b6.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Resources/views/reports/unpaid.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Entities/OrderFile.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Http/routes.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Resources/views/students/historystate.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Resources/views/equal/show.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Resources/views/equal/list.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Http/Controllers/OrderfilesController.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Events/EventsServiceProvider.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Resources/views/withdraw/show.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Resources/views/invoices/index.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Http/Controllers/MessagesController.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Entities/StudentDepartmentHistory.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Entities/StudentMessage.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Entities/StudentGradePlaint.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Providers/EventServiceProvider.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Entities/EqualSubject.php",
+		"/Library/WebServer/Documents/dares/modules/Lists/Providers/EventsServiceProvider.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Resources/views/subjects/_fields.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Resources/views/messages/_content.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Resources/views/messages/_fields.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Assignsubjects/Listeners/DropDelayedStudentSubject.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Providers/EventServiceProvider.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Providers/EventsServiceProvider.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Http/Controllers/WithdrawsController.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Providers/OrdersServiceProvider.php",
+		"/Library/WebServer/Documents/dares/modules/Assignsubjects/Listeners/DropWithdrawStudentSubject.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Events/WithdrawOrderAccepted.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Resources/views/dashborad/withdraw.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Students/Resources/views/students/index.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Academystructure/Resources/views/specialties/index.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Academystructure/Resources/lang/ar/specialties.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Listeners/CreditWithdrawStudent.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Resources/views/dashborad/delay.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Http/Controllers/InvoicesController.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Http/Controllers/FinancialsController.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Entities/OrderChangeDepartment.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Listeners/CreditDelayedStudent.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Http/Controllers/DelaysController.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Entities/Delay.php",
+		"/Library/WebServer/Documents/dares/modules/Financials/Resources/views/dashborad/plaints.blade.php",
+		"/Library/WebServer/Documents/dares/modules/Exams/Http/routes.php",
+		"/Library/WebServer/Documents/dares/modules/Assignsubjects/Config/config.php",
+		"/Library/WebServer/Documents/dares/modules/Orders/Resources/views/changeDepartment/index.blade.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Add the layout-boxed class to the body tag to get this layout. The boxed layout is helpful when working on large screens because it prevents the site from stretching very wide.\n",
+			"text",
+			"radio",
+			"minimal-red",
+			"flat-red",
+			"radio",
+			"minimal-red",
+			"skin radio",
+			"daterangepicker",
+			"reservation",
+			"20",
+			"box-",
+			"flat-red",
+			"select2",
+			"\">\n",
+			"\\",
+			"/",
+			"JopController",
+			"user_id"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Library/WebServer/Documents/Tanzeem"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Library/WebServer/Documents/Tanzeem/modules/Workflows/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5,
+								5
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "WorkflowsController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Library/WebServer/Documents/Tanzeem/modules/Workflows/Entities/Workflow.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"dashboa",
+				"public/dist/js/pages/dashboard.js"
+			],
+			[
+				"fina",
+				"modules/Financials/Entities/FinancialInstallment.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 384.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1608,27 +1608,33 @@ a:hover, a:active, a:focus {
 }
 
 .box.box-primary {
-	border-top-color: #3c8dbc
+	border-top-color: #3c8dbc;
+	padding: 20px;
 }
 
 .box.box-info {
-	border-top-color: #00c0ef
+	border-top-color: #00c0ef;
+	padding: 20px;
 }
 
 .box.box-danger {
-	border-top-color: #dd4b39
+	border-top-color: #dd4b39;
+	padding: 20px;
 }
 
 .box.box-warning {
-	border-top-color: #f39c12
+	border-top-color: #f39c12;
+	padding: 20px;
 }
 
 .box.box-success {
-	border-top-color: #00a65a
+	border-top-color: #00a65a;
+	padding: 20px;
 }
 
 .box.box-default {
-	border-top-color: #d2d6de
+	border-top-color: #d2d6de;
+	padding: 20px;
 }
 
 .box.collapsed-box .box-body, .box.collapsed-box .box-footer {

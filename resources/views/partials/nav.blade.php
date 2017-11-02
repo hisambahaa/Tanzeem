@@ -2,6 +2,7 @@
           <h1>
             پیشخوان
             <small>پنل مدیریت</small>
+            @yield('title')
           </h1>
           <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> خانه</a></li>

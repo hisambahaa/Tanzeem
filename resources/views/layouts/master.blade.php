@@ -12,15 +12,18 @@
 
       <!-- Content Wrapper. Contains page content -->
       <div class="content-wrapper">
-        @include('partials.nav')
+        @yield('header')
+        <div style="
+                    border-top: 1px solid #e5e5e5;
+                    color: #ffffff;
+                    background-color: #ffffff;
+                    height: 1px;
+                    margin: 20px 0;"></div>
+        <!-- @include('partials.nav') -->
         <section class="content">
-          <div class="box box-primary">
-          {{--           
-          <div class="box-header">title</div>  
-          <div class="box-body pad table-responsive"></div>
-          --}}
+
+          
             @yield('content')
-          </div>
         </section>
       </div>
     <!-- /.content-wrapper -->
@@ -36,7 +39,7 @@
     </div><!-- ./wrapper -->
 
     <!-- jQuery 2.1.4 -->
-    <script src={{ asset("plugins/jQuery/jQuery-2.1.4.min.js")}} ></script>
+    <script src={{ asset("plugins/jQuery/jQuery-2.1.4.min.js") }} ></script>
     <!-- jQuery UI 1.11.4 -->
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
@@ -44,12 +47,12 @@
       $.widget.bridge('uibutton', $.ui.button);
     </script>
     <!-- Bootstrap 3.3.4 -->
-    <script src={{ asset("bootstrap/js/bootstrap.min.js")}} ></script>
+    <script src={{ asset("bootstrap/js/bootstrap.min.js") }} ></script>
     <!-- Morris.js charts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js" ></script>
-    <script src={{ asset("plugins/morris/morris.min.js")}} ></script>
+    <script src={{ asset("plugins/morris/morris.min.js") }} ></script>
     <!-- Sparkline -->
-    <script src={{ asset("plugins/sparkline/jquery.sparkline.min.js")}} ></script>
+    <script src={{ asset("plugins/sparkline/jquery.sparkline.min.js") }} ></script>
     <!-- jvectormap -->
     <script src={{ asset("plugins/jvectormap/jquery-jvectormap-1.2.2.min.js")}} ></script>
     <script src={{ asset("plugins/jvectormap/jquery-jvectormap-world-mill-en.js")}} ></script>
@@ -72,5 +75,7 @@
     <script src={{ asset("dist/js/pages/dashboard.js")}} ></script>
     <!-- AdminLTE for demo purposes -->
     <script src={{ asset("dist/js/demo.js")}} ></script>
+    
+  @yield('footer')
   </body>
 </html>

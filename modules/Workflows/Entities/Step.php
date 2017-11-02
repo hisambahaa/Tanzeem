@@ -6,4 +6,5 @@ class Step extends Model {
 
     protected $fillable = [];
 
+	protected $table = 'wf_steps';
 }

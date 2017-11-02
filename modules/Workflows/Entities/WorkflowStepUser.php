@@ -7,6 +7,9 @@ class WorkflowStepUser extends Model {
     protected $fillable = [];
 
 
+	protected $table = 'wf_workflow_step_users';
+
+
     public function fromstep()
 	{
 		return $this->belongsTo('\Modules\Workflows\Entities\step', 'from_step_id');

@@ -8,8 +8,12 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "stechstudio/laravel-ssh-tunnel": "^1.1",
-        "actuallymab/laravel-comment": "^0.3.0",
-        "laravelcollective/html": "^5.2.0"
+        "laravelcollective/html": "^5.2.0",
+        "pingpong/modules": "~2.1",
+        "bican/roles": "2.1.*",
+        "kalnoy/nestedset": "4.1.6",
+
+        "actuallymab/laravel-comment": "^0.3.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -50,12 +54,7 @@
     },
     "config": {
         "preferred-install": "dist"
-    },
-    
-    "require": {
-        "pingpong/modules": "~2.1",
-        "bican/roles": "2.1.*",
-        "kalnoy/nestedset": "4.1.6"
     }
+    
 
 }

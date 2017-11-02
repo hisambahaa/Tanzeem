@@ -1,7 +1,6 @@
-<head>
-<
+<head>  
     <meta charset="UTF-8">
-    <title>نظام تنظيم </title>
+    <title> تنظيم </title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.4 -->
@@ -16,7 +15,7 @@
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href={{ asset("dist/css/skins/_all-skins.min.css") }}>
     <!-- iCheck -->
-    <link rel="stylesheet" href={{ asset("plugins/iCheck/flat/blue.css") }}>
+    <link rel="stylesheet" href={{ asset("plugins/iCheck/all.css") }}>
     <!-- Morris chart -->
     <link rel="stylesheet" href={{ asset("plugins/morris/morris.css") }}>
     <!-- jvectormap -->
@@ -33,5 +32,9 @@
     <link rel="stylesheet" href={{ asset("dist/css/rtl.css") }}>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <link rel="stylesheet" type="text/css" href={{ asset('plugins/select2/select2.min.css') }}>
+
+    <link rel="stylesheet" type="text/css" href={{ asset('plugins/custom.css') }}>
 
   </head>

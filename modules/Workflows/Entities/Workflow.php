@@ -6,4 +6,7 @@ class Workflow extends Model {
 
     protected $fillable = [];
 
+
+	protected $table = 'wf_workflows';
+
 }
