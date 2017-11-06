@@ -28,7 +28,6 @@
                 <!-- form start -->
 
 {!! Form::open(['route'=>'workflows.workflow.store' ,'method' => 'post' ,'class'=>'form-horizontal']) !!}
-         <!-- {{ csrf_field() }} -->
 
    @include('workflows::workflows._fields')
 
